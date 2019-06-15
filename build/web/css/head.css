@@ -1,0 +1,20 @@
+    .modal-backdrop {
+
+      position: static;
+    }
+
+    #modalCart {
+      z-index: 2100;
+      margin-top: 35vh;
+    }
+    
+    
+       body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Karma", sans-serif
+    }
