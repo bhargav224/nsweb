@@ -99,11 +99,11 @@
      
         var flag2=true;
         
-         if(fname.length==0 || lname.length==0 || email.length==0 || econnum.length || message.length)
+         if(fname.length==0 || lname.length==0 || email.length==0 || econnum.length==0)
             {
                 flag2=false;
                 alert("please fill all fields ")
-//                $("#orgname").focus();
+                alert("fname: "+fname +" lname: " +lname +" email: "+email+" econnum: "+econnum)
                 
             }
         else
